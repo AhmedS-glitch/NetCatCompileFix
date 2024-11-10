@@ -1,0 +1,9 @@
+pacman -S mingw-w64-x86_64-gcc
+
+pacman -S make
+
+pacman -Ql mingw-w64-x86_64-gcc
+
+export PATH="/mingw64/bin:$PATH"
+
+x86_64-w64-mingw32-gcc --version
